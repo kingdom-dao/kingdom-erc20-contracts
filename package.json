@@ -1,5 +1,12 @@
 {
-  "name": "hardhat-project",
+  "name": "kingdom-erc20-contracts",
+  "license": "MIT",
+  "scripts": {
+    "prittier": "prettier . --write"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-network-helpers": "^1.0.9",
     "@nomicfoundation/hardhat-toolbox-viem": "^1.0.0",
@@ -9,14 +16,13 @@
     "@types/chai-as-promised": "^7.1.7",
     "@types/mocha": "^10.0.3",
     "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
     "hardhat": "^2.18.1",
     "hardhat-gas-reporter": "^1.0.9",
+    "prettier": "^3.0.3",
     "solidity-coverage": "^0.8.5",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
     "viem": "^1.16.6"
-  },
-  "dependencies": {
-    "@openzeppelin/contracts": "^5.0.0"
   }
 }
